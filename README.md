@@ -1,24 +1,47 @@
 ### Hi there, I'm Marco 👋
 
-I am not a traditional software engineer building massive microservices, nor a quantitative developer. I am an **AI Data Operator and Process Automator**. 
+**AI Automation Specialist** — I build the document and data pipelines that
+businesses actually depend on: invoices, bank statements, price catalogs and
+market data.
 
-I specialize in bridging the gap between messy, unstructured real-world data and clean, actionable business logic. I leverage Python, Web Scraping, and AI-assisted development ("Vibe Coding") to build practical, resilient tools that solve immediate operational bottlenecks.
+I come from 19 years in financial and operational data, 13 of them spent
+verifying that other people's numbers were right. That is why I care about a
+fallback chain, a repaired JSON response, and a reconciliation that still ties
+out at month end. I automate the process from the inside out, because I used
+to run it.
 
-### 🛠️ What I Actually Do
-- **Web Scraping & Data Sanitization:** Extracting raw data from e-commerce and retail platforms, and writing Python scripts to clean, normalize, and structure it into decision-ready Excel reports.
-- **Resilient OCR & Document Processing:** Building hybrid extraction workflows for invoices, bank statements, and handwritten receipts using Vision LLMs with strict mathematical validation and local failovers.
-- **Async Data Pipelines:** Engineering non-blocking, real-time data ingestion systems using `asyncio` and WebSockets for market and structural analysis.
+### 🛠️ What I actually do
+- **Document extraction that survives bad scans:** invoices and bank statements
+  with fiscal IDs, control numbers and totals, read with Vision LLMs, a
+  fallback chain across models (NVIDIA → Mistral → Qwen), and repair functions
+  for malformed JSON output.
+- **Reconciliation and back-office automation:** bank statement reconciliation,
+  VAT withholdings and cash ticket processing, automated in Python and
+  delivered as spreadsheets an accountant can check.
+- **Web scraping and data sanitation:** raw data from e-commerce and retail
+  platforms cleaned, normalized and structured into decision-ready Excel
+  reports and B2B prospect lists with verified contacts.
+- **Measurement, not vibes:** I keep a validation laboratory running 24/7 on
+  Render. It rebuilds its own calculation with independent tools, compares
+  against controls, and publishes the results even when they are negative.
 
-### 🧠 My Philosophy: "Vibe Coding" & Pragmatism
-I don't over-engineer. I use AI as a pair-programmer to handle complex syntax and boilerplate, allowing me to focus entirely on **business logic, data integrity, and edge-case handling**. 
-If a cloud API fails, my scripts fallback to local OCR. If a JSON response is truncated by the LLM, my regex shields repair it. My goal is not to write the most complex code, but to deliver tools that **simply work** and save hours of manual labor.
+### 🧠 How I work
+I use AI as a pair programmer for syntax and boilerplate, so my attention goes
+to business logic, data integrity and edge cases. If one model API fails, the
+next one answers. If the JSON comes back truncated, the repair step fixes it.
+If the number does not tie out, the report says so. The goal is not the most
+sophisticated code — it is tools that keep working and save hours of manual
+labor.
 
-### 💻 Tech Stack & Tools
-- **Core:** Python 3, Pandas, NumPy, SQLite
-- **Automation & UI:** Tkinter, OpenPyXL, Regex
-- **AI & Vision:** NVIDIA NIM, Qwen, Mistral, Gemini, EasyOCR
-- **Web & Network:** `aiohttp`, `asyncio`, WebSockets, `curl_cffi` (Anti-bot evasion)
+### 💻 Stack
+- **Core:** Python, Pandas, OpenPyXL, Excel
+- **AI & Vision:** NVIDIA API, Mistral, Qwen, LLM Vision APIs, EasyOCR,
+  LiteLLM + OpenRouter (model routing), MCP
+- **Ops:** Git, Render, UptimeRobot, Google Colab, VS Code, scheduled daemons
+- **Also:** agent orchestration with tool use and function calling, evals and
+  golden sets, walk-forward validation
 
-### 🌐 Let's Connect
-I am open to remote, async, and deliverable-driven collaborations. 
+### 🌐 Let's connect
+Open to remote, async, deliverable-driven work. Spanish native; professional
+reading and writing in English.
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/marco-diaz-852179414/)
